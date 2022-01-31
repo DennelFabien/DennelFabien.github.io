@@ -193,7 +193,7 @@
       animation-timing-function: linear;
       animation-iteration-count: 1;
     }
-    
+
     /*========== Header ==========*/
     .header
     {
@@ -1343,3 +1343,4 @@
         max-width: 100%;
       }
     }
+    
