@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <title>Portfolio Fabien - Dennel</title>
 </head>
@@ -21,7 +21,7 @@
         <!-- nav -->
         <nav class="nav container padd-15">
             <!-- nav logo -->
-            <a href="index.html#accueil" class="nav-logo">
+            <a href="../index.html" class="nav-logo">
                 <h2>Fabien</h2>
             </a>
             <!-- nav menu -->
@@ -29,22 +29,25 @@
                 <!-- nav list -->
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active-link">Accueil</a>
+                        <a href="../index.html" class="nav-link active-link">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#a-propos" class="nav-link">A propos</a>
+                        <a href="../index.html#a-propos" class="nav-link">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#experience" class="nav-link">Experience</a>
+                        <a href="../index.html#bts" class="nav-link">Bts</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+                        <a href="../experience.html" class="nav-link">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#certifications" class="nav-link">Certifications</a>
+                        <a href="../portfolio.html" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#contact" class="nav-link">Contact</a>
+                        <a href="../veille.html" class="nav-link">Veille</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../certification.html" class="nav-link">Certifications</a>
                     </li>
                 </ul>
                 <!-- nav close -->
@@ -54,6 +57,7 @@
             </div>
         </nav>
     </header>
+
     <!--=============== MAIN ===============-->
     <main class="main-content">
         <!--=============== Testimonial ===============-->
@@ -61,18 +65,27 @@
             <div class="container">
                 <!-- section title -->
                 <br><br>
-                <h2 class="section-title padd-15">Apprenez à programmer avec JavaScript</h2><br>
+                <h2 class="section-title padd-15">Gérez du code avec Git et GitHub</h2><br>
                 <!-- testimonial wrapper -->
                 <div class="swiper testimonial-wrapper">
                     <div class="swiper-wrapper">
                         <!-- testimonial item -->
                         <div class="testimonial-item swiper-slide">
                             <div class="thumb">
-                                <img src="assets/img/java-logo.png" alt="">
+                                <img src="../assets/img/git.png" alt="">
                             </div>
-                            <h3>JavaScript</h3>
-                            <span class="subtitle"></span>
-                            <div class="comment">JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.</div>
+                            <h3>Git</h3>
+                            
+                            <div class="comment">Git est de loin le système de contrôle de version le plus largement utilisé aujourd'hui. Git est un projet open source avancé, qui est activement maintenu. </div>
+                        </div>
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="../assets/img/github.png" alt="">
+                            </div>
+                            <h3>Github</h3>
+                            
+                            <div class="comment">GitHub est un site web conçu pour fédérer et partager le code source d'un projet de développement d'application mis à œuvre par plusieurs programmeurs.</div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -86,30 +99,31 @@
                     <!-- prices -->
                     <div class="prices">
                         <div class="price-item">
-                            <img src="assets/img/price-1.svg" alt="">
+                            <img src="../assets/img/price-1.svg" alt="">
                             <h3 class="plan">Compétences acquises :</h3>
-                            <p>-utiliser les données et les types de données dans JavaScript ;<br>
-                                -gérer la logique d'un programme en JavaScript (conditions, boucles et erreurs) ;<br>
-                                -écrire du code propre et facile à maintenir à l'aide de méthodes en JavaScript. <br><br></p>
+                            <p>-installer et configurer Git et GitHub;<br>
+                                -utiliser les commandes de base de Git;<br>
+                                -corriger les erreurs courantes sur GitHub.</p>
                         </div>
                     </div>
                      <!-- prices -->
                      <div class="prices">
                         <div class="price-item best">
                             <span class="badge">openclassrooms</span>
-                            <img src="assets/img/openClassrooms.png" alt="" style="height: 80px; width: 85px;">
+                            <img src="../assets/img/openClassrooms.png" alt="" style="height: 80px; width: 85px;">
                             <h3 class="plan">Openclassrooms</h3>
-                            <p>Ce cours proposer par Openclassrooms est conçu pour connaitre les bases du langage de programmation JavaScript et pour apporter beaucoup de pratique au passage ! </p>
+                            <p>Dans le cours proposé par openclassroms, j’ai appris à gérer et déployer mes projets informatiques avec Git et GitHub.</p>
                                     <br>
-                                    <a href="https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript" class="btn btn-default" target="_blank">Lien</a>
+                                    <a href="https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github" class="btn btn-default" target="_blank">Lien</a>
                         </div>
                     </div>
                      <!-- prices -->
                     <div class="prices">
                         <div class="price-item">
-                            <img src="assets/img/price-3.png" alt="" style="height: 120px; width: 135px;">
+                            <img src="../assets/img/price-3.png" alt="" style="height: 120px; width: 135px;">
                             <h3 class="plan">Pourquoi</h3>
-                            <p>JavaScript est actuellement un langage de programmation qui évolue comme une lancée de fusée (8 langage de programmation le plus utilisés en 2022). Javascript permets de créer des sites internet dynamiques. Il est en fait le seul langage de programmation permettant de le faire.</p>
+                            <p>Git est un logiciel de gestion de version. Il est présent dans la grande majorité des entreprises de développement.<br>
+                                Github est une plateforme de collaboration pour les développeurs basée sur Git. Github permet non seulement d’héberger des dépôts Git.<br><br></p>
                         </div>
                     </div>
                 </div>
@@ -125,7 +139,7 @@
                     <div class="portfolio-item padd-15" data-category="diplome">
                         <div class="portfolio-item-inner">
                             <div class="portfolio-item-thumbnail">
-                                <img src="assets/img/screen.jpg" alt="" style="height: 240px; width: 295px;">
+                                <img src="../assets/img/screen.jpg" alt="" style="height: 240px; width: 295px;">
                                 <div class="mask"></div>
                             </div>
                             <span class="term">Capture d'écran</span>
@@ -138,25 +152,25 @@
                     <div class="portfolio-item padd-15" data-category="table">
                         <div class="portfolio-item-inner">
                             <div class="portfolio-item-thumbnail">
-                                <img src="assets/img/table.svg" alt="" style="height: 240px; width: 295px;">
+                                <img src="../assets/img/table.svg" alt="" style="height: 240px; width: 295px;">
                                 <div class="mask"></div>
                             </div>
                             <span class="term">Table</span>
                             <h3 class="portfolio-item-title">Table des matières</h3>
-                            <a href="assets/pdf/Tablejavascript.pdf" target="_blank"><span class="more-button">&hellip;</span></a>
+                            <a href="../assets/pdf/Tablegitgithub.pdf" target="_blank"><span class="more-button">&hellip;</span></a>
                         </div>
                     </div>
                         <!-- portfolio item -->
                         <div class="portfolio-item padd-15" data-category="diplome">
                         <div class="portfolio-item-inner">
                             <div class="portfolio-item-thumbnail">
-                                <img src="assets/img/diplome.jpeg" alt="" style="height: 240px; width: 295px;">
+                                <img src="../assets/img/diplome.jpeg" alt="" style="height: 240px; width: 295px;">
                                 <div class="mask"></div>
                             </div>
                             <span class="term">Certificat</span>
                             <h3 class="portfolio-item-title">Certificat de réussite </h3>
                             <span>
-                            <a href="/assets/pdf/JavaScript.pdf" target="_blank"><span class="more-button">&hellip;</span></a>
+                            <a href="../assets/pdf/github.pdf" target="_blank"><span class="more-button">&hellip;</span></a>
                         </div>
                     </div>
                 </div>
@@ -175,6 +189,6 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
     <!--=============== JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
