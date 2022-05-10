@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <title>Portfolio Fabien - Dennel</title>
 </head>
@@ -21,7 +21,7 @@
         <!-- nav -->
         <nav class="nav container padd-15">
             <!-- nav logo -->
-            <a href="index.html#accueil" class="nav-logo">
+            <a href="../index.html" class="nav-logo">
                 <h2>Fabien</h2>
             </a>
             <!-- nav menu -->
@@ -29,22 +29,22 @@
                 <!-- nav list -->
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active-link">Accueil</a>
+                        <a href="../index.html" class="nav-link active-link">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#a-propos" class="nav-link">A propos</a>
+                        <a href="../index.html#a-propos" class="nav-link">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#experience" class="nav-link">Experience</a>
+                        <a href="../index.html#experience" class="nav-link">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        <a href="../portfolio.html" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="veille.html" class="nav-link">Veille</a>
+                        <a href="../veille.html" class="nav-link">Veille</a>
                     </li>
                     <li class="nav-item">
-                        <a href="certification.html" class="nav-link">Certifications</a>
+                        <a href="../certification.html" class="nav-link">Certifications</a>
                     </li>
                 </ul>
                 <!-- nav close -->
@@ -54,7 +54,6 @@
             </div>
         </nav>
     </header>
-
     <!--=============== MAIN ===============-->
     <main class="main-content" >
         <section class="portfolio section">
@@ -78,17 +77,17 @@
                     <div class="row">
                         <div class="about-img padd-15">
                             <!-- avatar img -->
-                            <img src="assets/img/Glpi.png" alt="">
+                            <img src="../assets/img/Glpi.png" alt="">
                         </div>
                         <div class="about-content padd-15" ">
                             <div class="rounded">
                                 <div class="row">
                                     <div class="about-text padd-15">
-                                        <!-- about text --><br>
-                                        <p>Ce tp constitué le premier chapitre de la première année de BTS SIO. Ce tp avait pour finalité
-                                            la découverte, l'installation et l'utilisation de GLPI. Au cours de ce tp, plusieurs pas à pas on
-                                            était effectué permettant la documentation de l'installation et paramétrage du GLPI et son
-                                            utilisation.
+                                        <!-- about text -->
+                                        <p>GLPI (Gestion Libre de Parc Informatique) est un outil de gestion des services informatiques (ITSM) 
+                                            qui centralise les informations de gestion de parc, tel que l'inventaire, le ticketing et la gestion 
+                                            administrative et financière.
+                                            Ainsi, ce TP avait pour objectif de découvrir cet outil et de l'installer sur une machine virtuelle Linux sous Debian 10.
                                         </p>
                                     </div>
                                     <div class="skills padd-15">
@@ -97,33 +96,52 @@
                                             <div class="skill-item">
                                             <h4>Installation de GLPI</h4>
                                                     <div class="rapport" style="margin-left: 20px;">
-                                                        <a href="assets/pdf/GLPI-installation.pdf" class="btn btn-default" target="_blank">Voir le pas à pas</a>
+                                                        <a href="../assets/pdf/GLPI-installation.pdf" class="btn btn-default" target="_blank">Voir le pas à pas</a>
                                                     </div>
                                             </div>
                                             <!-- skill item --> <br>
                                             <div class="skill-item">
                                             <h4>Installation OCS Inventory</h4>
                                                 <div class="rapport" style="margin-left: 20px;">
-                                                    <a href="assets/pdf/OCS-Inventory-instalation.pdf" class="btn btn-default" target="_blank">Voir le pas à pas</a>
+                                                    <a href="../assets/pdf/OCS-Inventory-instalation.pdf" class="btn btn-default" target="_blank">Voir le pas à pas</a>
                                                 </div>
                                             </div>
                                             <!-- skill item --> <br>
                                             <div class="skill-item">
                                                 <h4>Création de compte</h4>
                                                     <div class="rapport" style="margin-left: 20px;">
-                                                        <a href="assets/pdf/GLPI-compte.pdf" class="btn btn-default" target="_blank">Voir le pas à pas</a>
+                                                        <a href="../assets/pdf/GLPI-compte.pdf" class="btn btn-default" target="_blank">Voir le pas à pas</a>
                                                     </div>
                                                 </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>  
+                    <div class="container">
+                        <div class="" >
+                            <h3>Le contexte du TP était le suivant :</h3>
+                                <div class="">
+                                    <p>L'entreprise ROSTAND est une société de prestation informatique. L’entreprise vend des solutions informatiques pour les entreprises. Pour répondre au mieux aux attentes des clients, l’entreprise souhaite mettre en place la solution GLPI.</p>
+                                </div> <br>
+                        <h3>Les principales fonctionnalités de GLPI :</h3>
+                        <div class="">
+                            <p>&nbsp; &nbsp; &nbsp; &nbsp;-L'inventaire des ordinateurs, périphériques, réseau, imprimantes et leurs consommables associés ;<br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;-La gestion des licences et des dates d'expirations ;<br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;-L'affectation du matériel par zone géographique ;<br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;-La gestion des informations commerciales et financières (achat, garantie…) ;<br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;-La gestion des réparations ;<br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;-La gestion des demandes d'interventions pour tous les types de matériel de l'inventaire ;<br>
+                                &nbsp; &nbsp; &nbsp; &nbsp;-La génération de rapport sur le matériel, le réseau et les interventions, ainsi que des statistiques.</p>
+                        </div> <br>
+                        <h3>OCS Inventory :</h3>
+                        <div class="">
+                            <p>Au cours, du TP le plugin OCS Inventory a été installé. C'est un plugin Open Source permet de faire l'inventaire du hardware et software ainsi que le télédéploiement de paquets sur le parc informatique.</p>
+                        </div> 
+                    </div>
                 </div>
-            </section>
-            <!-- section caroussel-->
-            <section>
                 <div class='caroussel_diapo'>
                     <input checked id="carou_un" name="rotation" type="radio">
                         <label for="carou_un"></label>
@@ -133,14 +151,13 @@
                         <label for="carou_trois"></label>
                     <div class="contenu_carou">
                         <div class="caroussel">
-                            <img src="assets/img/glpi-connex.png" alt>
-                            <img src="assets/img/glpi-parc-info.png" alt>
-                            <img src="assets/img/glpi-espace-admin.png" alt>
+                            <img src="../assets/img/glpi-connex.png" alt>
+                            <img src="../assets/img/glpi-parc-info.png" alt>
+                            <img src="../assets/img/glpi-espace-admin.png" alt>
                         </div>
                     </div>
                 </div>
             </section>
-        </section>
         <script src="/cookiechoices.js"></script><script>document.addEventListener 
             ('DOMContentLoaded', function(event) { cookieChoices.showCookieConsentBar 
             ('Ce site utilise des cookies pour vous offrir le meilleur service. En poursuivant votre navigation, vous acceptez l\’utilisation des cookies.',
@@ -150,15 +167,16 @@
         <footer class="footer">
             <div class="container">
                 <div class="footer-text padd-15">
-                    <p><a href="mention.html">Mentions légales </a>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &copy; Fabien Dennel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<a href="politique.html">Politique de confidentialité </a> </p>
+                    <p><a href="../mention.html">Mentions légales </a>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &copy; Fabien Dennel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<a href="../politique.html">Politique de confidentialité </a> </p>
                     <a href=""> </a>
                 </div>
             </div>
         </footer>
+        
     </main>
     <!--=============== SWIPER JS ===============-->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
     <!--=============== JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>

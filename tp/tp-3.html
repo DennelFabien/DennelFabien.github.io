@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <title>Portfolio Fabien - Dennel</title>
 </head>
@@ -21,7 +21,7 @@
         <!-- nav -->
         <nav class="nav container padd-15">
             <!-- nav logo -->
-            <a href="index.html#accueil" class="nav-logo">
+            <a href="../index.html" class="nav-logo">
                 <h2>Fabien</h2>
             </a>
             <!-- nav menu -->
@@ -29,22 +29,22 @@
                 <!-- nav list -->
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active-link">Accueil</a>
+                        <a href="../index.html" class="nav-link active-link">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#a-propos" class="nav-link">A propos</a>
+                        <a href="../index.html#a-propos" class="nav-link">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#experience" class="nav-link">Experience</a>
+                        <a href="../index.html#experience" class="nav-link">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        <a href="../portfolio.html" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="veille.html" class="nav-link">Veille</a>
+                        <a href="../veille.html" class="nav-link">Veille</a>
                     </li>
                     <li class="nav-item">
-                        <a href="certification.html" class="nav-link">Certifications</a>
+                        <a href="../certification.html" class="nav-link">Certifications</a>
                     </li>
                 </ul>
                 <!-- nav close -->
@@ -54,59 +54,71 @@
             </div>
         </nav>
     </header>
-
     <!--=============== MAIN ===============-->
     <main class="main-content" >
         <section class="portfolio section">
             <section>
                 <div class="container" id="dotnet">
                 <!-- section title --><br><br>
-                <h2 class="section-title padd-15">Création d'un profil LinkedIn</h2>
-                
+                <h2 class="section-title padd-15">Evolution d'un programme donnant des indicateurs sur des entrées dans un cinéma</h2>
                     <div class="comment">
+                        <h4>Environnement</h4>
+                            <div class="" style="width: 100%; color: rgb(255,76,96); font-weight: bold;">
+                                <p>Voici les différents logiciels utilisées pour mener à bien ce TP :<br>
+                                - Visual Studio 2019</p></div>
+                        <br>
                         <h4>Compétences associées</h4>
-                            <div class="" style=" width: 100%; color: rgb(108,108,229); font-weight: bold;"><p> Organiser son développement professionnel :<br>
-                                - Gérer son identité professionnelle <br>
-                                - Développer son projet professionnel
+                            <div class="" style=" width: 100%; color: rgb(108,108,229); font-weight: bold;"><p>Répondre aux incidents et aux demandes d’assistance et d’évolution :<br>
+                                - Collecter, suivre et orienter des demandes <br>
+                                - Traiter des demandes concernant les applications
                             </p></div>
                     </div><br><br>
-                    <div class="row">
+                <div class="row">
                         <div class="about-img padd-15">
                             <!-- avatar img -->
-                            <img src="assets/img/Linkedin-logo.png" alt="">
+                            <img src="../assets/img/cinema.png" alt="">
                         </div>
                         <div class="about-content padd-15" ">
                             <div class="rounded">
                                 <div class="row">
                                     <div class="about-text padd-15">
                                         <!-- about text -->
-                                        <p>Cette AP avait pour but de nous créer un compte LinkedIn sur les conseils de nos professeurs. Permettant ainsi de découvrir les réseaux sociaux du monde du travail et de nous aider à la recherche d'un stage plus facilement.
-                                        </p>
+                                        <p>Ce Tp constitue l'évolution d'un programme permettant au président du Cinédori d'obtenir différents indicateurs présentés lors de l'assemblée générale de l'association. Pour l'instant, les indicateurs sont calculés à partir des nombres d'entrées saisis pour chacun des mois d'une période de l'année précédente. De nouveaux indicateurs doivent être fournis à partir des montants de recette de chacun des mois de la période de référence.</p>
                                     </div>
                                     <div class="skills padd-15">
                                         <div class="row">
                                             <!-- skill item -->
                                             <div class="skill-item">
-                                            <h4>Conseil compte LinkedIn</h4>
-                                                    <div class="rapport" style="margin-left: 20px;">
-                                                        <a href="assets/pdf/LinkedIn-conseil.pdf" class="btn btn-default" target="_blank">Voir les conseils</a>
+                                            <h4>TP - Evolution d'un programme donnant des indicateurs sur des entrées dans un cinéma</h4>
+                                                    <div class="rapport" style="margin-left: 70px;">
+                                                        <a href="../assets/pdf/tp-3.pdf" class="btn btn-default" target="_blank">Voir le TP</a>
                                                     </div>
                                             </div>
-                                            <!-- skill item --> <br>
-                                            <div class="skill-item">
-                                            <h4>Mon compte LinkedIn</h4>
-                                                <div class="rapport" style="margin-left: 20px;">
-                                                    <a href="https://fr.linkedin.com/in/fabien-dennel-67856a1b7" class="btn btn-default" target="_blank">Voir mon compte</a>
-                                                </div>
-                                            </div>
-                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>  
                 </div>
             </section>
+            <!-- section caroussel-->
+            <section>
+                <div class='caroussel_diapo'>
+                    <input checked id="carou_un" name="rotation" type="radio">
+                        <label for="carou_un"></label>
+                    <input id="carou_deux" name="rotation" type="radio">
+                        <label for="carou_deux"></label>
+                    <div class="contenu_carou">
+                        <div class="caroussel">
+                            <img src="../assets/img/tp3-image1.PNG" alt>
+                            <img src="../assets/img/tp3-image2.PNG" alt>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </section>
         <script src="/cookiechoices.js"></script><script>document.addEventListener 
             ('DOMContentLoaded', function(event) { cookieChoices.showCookieConsentBar 
             ('Ce site utilise des cookies pour vous offrir le meilleur service. En poursuivant votre navigation, vous acceptez l\’utilisation des cookies.',
@@ -116,7 +128,7 @@
         <footer class="footer">
             <div class="container">
                 <div class="footer-text padd-15">
-                    <p><a href="mention.html">Mentions légales </a>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &copy; Fabien Dennel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<a href="politique.html">Politique de confidentialité </a> </p>
+                    <p><a href="../mention.html">Mentions légales </a>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &copy; Fabien Dennel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<a href="../politique.html">Politique de confidentialité </a> </p>
                     <a href=""> </a>
                 </div>
             </div>

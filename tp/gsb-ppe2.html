@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <title>Portfolio Fabien - Dennel</title>
 </head>
@@ -21,7 +21,7 @@
         <!-- nav -->
         <nav class="nav container padd-15">
             <!-- nav logo -->
-            <a href="index.html#accueil" class="nav-logo">
+            <a href="../index.html" class="nav-logo">
                 <h2>Fabien</h2>
             </a>
             <!-- nav menu -->
@@ -29,22 +29,22 @@
                 <!-- nav list -->
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active-link">Accueil</a>
+                        <a href="../index.html" class="nav-link active-link">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#a-propos" class="nav-link">A propos</a>
+                        <a href="../index.html#a-propos" class="nav-link">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#experience" class="nav-link">Experience</a>
+                        <a href="../index.html#experience" class="nav-link">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        <a href="../portfolio.html" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="veille.html" class="nav-link">Veille</a>
+                        <a href="../veille.html" class="nav-link">Veille</a>
                     </li>
                     <li class="nav-item">
-                        <a href="certification.html" class="nav-link">Certifications</a>
+                        <a href="../certification.html" class="nav-link">Certifications</a>
                     </li>
                 </ul>
                 <!-- nav close -->
@@ -54,7 +54,6 @@
             </div>
         </nav>
     </header>
-
     <!--=============== MAIN ===============-->
     <main class="main-content" >
         <section class="portfolio section">
@@ -84,52 +83,27 @@
                         - Planifier les activités<br>
                         - Évaluer les indicateurs de suivi d’un projet et analyser les écarts
                     </p></div>
-                </div><br><br>
-                    <div class="row">
-                        <div class="about-img padd-15">
-                            <!-- avatar img -->
-                            <img src="assets/img/avatar-gsb.png" alt="">
-                        </div>
-                        <div class="about-content padd-15">
-                            <div class="rounded">
-                                <div class="row">
-                                    <div class="about-text padd-15">
-                                        <!-- about text -->
-                                        <p>Le groupe pharmaceutique GSB désire contrôler davantage l'origine des frais de remboursement des déplacements de ses employés.
-                                            De plus, GSB désire gérer séparément les demandes de remboursement liées :
-                                            <br>
-                                            - aux déplacements chez les médecins pour présenter des produits;<br>
-                                            - aux participations à des congrès;<br>
-                                            - aux participations à des formations obligatoires;<br>
-                                            Ces trois dernières améliorations ont étés séparées parmi les 3 membres du groupe de travail puis mises en commun via GitHub.
-                                        </p>
-                                    </div>
-                                    <div class="skills padd-15">
-                                        <div class="row">
-                                            <!-- skill item --> <br>
-                                            <div class="skill-item">
-                                            <h4>Cahier des charges</h4>
-                                                <div class="rapport" style="margin-left: 20px;">
-                                                    <a href="" class="btn btn-default" target="_blank">Cahier des charges</a>
-                                                </div>
-                                            </div>
-                                            <!-- skill item --> <br>
-                                            <div class="skill-item">
-                                                <h4>Code source de l'application</h4>
-                                                    <div class="rapport" style="margin-left: 60px;">
-                                                        <a href="" class="btn btn-default" target="_blank">Github</a>
-                                                    </div>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
                 </div>
-            </section>
-            <!-- section caroussel-->
-            <section>
+                    <div class="container">
+                        <div class="" >
+                            <h3>Gestion des remboursements :</h3>
+                                <div class="">
+                                    <p>Suite à la correction des anomalies du projet (GSB - correction bug), nous devions ajouter plusieurs fonctionnalité. J'étais chargé de cette fonctionnalité :<br>
+                                        <br>Les visites chez les médecins :<br>
+                                        Les délégués médicaux doivent saisir les visites qu’il réalisent chez les médecins. Pour
+                                        chaque visite on conservera la date de la visite, un commentaire et le médecin concerné.
+                                        Les délégués doivent pouvoir saisir les caractéristiques de leurs visites et le responsable de
+                                        la comptabilité devra disposer d’une fonctionnalité lui permettant d’obtenir les visites saisies
+                                        par un délégué médical de son choix, afin de procéder aux contrôles avant de valider les
+                                        remboursements.<br><br>
+
+                                        Lors de cette évolution, nous devions également respecter les conventions PSR précédemment étudier et utiliser un système de versionning avec GIT et GITHUB pour que chaque membre du groupe puissent intégré sa fonctionnalité. Chaque groupe a réalisé un trello afin de gérer au mieux le projet. <br>
+                                        Voici le document du Trello : &nbsp; &nbsp;<a href="../assets/pdf/trello-gsb2.pdf" class="btn btn-default" target="_blank">Trello</a></p>
+                                        <br>Voici le code source de l'application : &nbsp; &nbsp;<a href="https://github.com/RafaelCoppe/GestionFraisGSB.git" class="btn btn-default" target="_blank">Github</a></p>
+                                    </div> 
+                    </div>
+                </div>
+
                 <div class='caroussel_diapo'>
                     <input checked id="carou_un" name="rotation" type="radio">
                         <label for="carou_un"></label>
@@ -147,13 +121,13 @@
                         <label for="carou_sept"></label>
                     <div class="contenu_carou">
                         <div class="caroussel">
-                            <img src="assets/img/gsb2-ppe.PNG" alt>
-                            <img src="assets/img/gsb2-ppe1.PNG" alt>
-                            <img src="assets/img/gsb2-ppe2.PNG" alt>
-                            <img src="assets/img/gsb2-ppe3.PNG" alt>
-                            <img src="assets/img/gsb2-ppe4.PNG" alt>
-                            <img src="assets/img/gsb2-ppe5.PNG" alt>
-                            <img src="assets/img/gsb2-ppe6.PNG" alt>
+                            <img src="../assets/img/gsb2-ppe.PNG" alt>
+                            <img src="../assets/img/gsb2-ppe1.PNG" alt>
+                            <img src="../assets/img/gsb2-ppe2.PNG" alt>
+                            <img src="../assets/img/gsb2-ppe3.PNG" alt>
+                            <img src="../assets/img/gsb2-ppe4.PNG" alt>
+                            <img src="../assets/img/gsb2-ppe5.PNG" alt>
+                            <img src="../assets/img/gsb2-ppe6.PNG" alt>
                         </div>
                     </div>
                 </div>
@@ -168,7 +142,7 @@
         <footer class="footer">
             <div class="container">
                 <div class="footer-text padd-15">
-                    <p><a href="mention.html">Mentions légales </a>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &copy; Fabien Dennel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<a href="politique.html">Politique de confidentialité </a> </p>
+                    <p><a href="../mention.html">Mentions légales </a>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &copy; Fabien Dennel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<a href="../politique.html">Politique de confidentialité </a> </p>
                     <a href=""> </a>
                 </div>
             </div>
