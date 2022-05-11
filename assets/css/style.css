@@ -13,7 +13,7 @@
     --white-color-lightness:100%;
 
     --color-white: hsl(252, 30%, var(--white-color-lightness));
-    --color-light: hsl(252, 30%, var(--light-color-lightness));
+    --color-light: hsl(252, 15%, var(--light-color-lightness));
     --color-gray: hsl(252, 15%, 65%);
     --color-primary: hsl(var(--primary-color-hue), 75%, 60%);
     --color-dark: hsl(252, 30%, var(--dark-color-lightness));
