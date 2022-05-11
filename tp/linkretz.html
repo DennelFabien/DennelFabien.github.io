@@ -76,47 +76,33 @@
                             Développer la présence en ligne de l’organisation :<br>
                             - Participer à l’évolution d’un site Web exploitant les données de l’organisation
                         </p></div>
-                </div><br><br>
-                    <div class="row">
-                        <div class="about-img padd-15">
-                            <!-- avatar img -->
-                            <img src="../assets/img/web.png" alt="">
-                        </div>
-                        <div class="about-content padd-15">
-                            <div class="rounded">
-                                <div class="row">
-                                    <div class="about-text padd-15">
-                                        <!-- about text -->
-                                        <p>L’agence de voyage Linkretz, située à Chantilly, commercialise des séjours conçus par des voyagistes (appelé également tour-opérateurs) et assure différents services, comme la vente 
-                                            de billets d'avion ou de train, la location de voitures, de villas ou d'appartements, la réservation de chambres d'hôtel. Ce TP comprend la correction de l'application Web statique.  
-                                        </p>
-                                    </div>
-                                    <div class="skills padd-15">
-                                        <div class="row">
-                                            <!-- skill item -->
-                                            <div class="skill-item">
-                                            <h4>Compte-rendu des corrections à apporter à l'application</h4>
-                                                    <div class="rapport" style="margin-left: 00px;">
-                                                        <a href="../assets/pdf/tp-correction-web.pdf" class="btn btn-default" target="_blank">Voir le compte-rendu</a>
-                                                    </div>
-                                            </div>
-                                            <!-- skill item --> <br>
-                                            <div class="skill-item">
-                                            <h4>Code source de l'application</h4>
-                                                <div class="rapport" style="margin-left: 50px;">
-                                                    <a href="https://github.com/DennelFabien/Linkretz" class="btn btn-default" target="_blank">Github</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
                 </div>
-            </section>
-            <!-- section caroussel-->
-            <section>
+                    <div class="container">
+                        <div class="" >
+                            <h3>Contexte :</h3>
+                                <div class="">
+                                    <p>Ce Tp a constitué le quatrième chapitre en bloc web de la première année de BTS SIO. Ce TP avait pour finalité la découverte et la manipulation de code HTML et CSS. Ce code était rempli de bug empêchant le bon fonctionnement d'une application web statique.<br><br>
+                                </p></div>
+                            <h3> Description du TP :</h3>
+                                <div class="">
+                                    <p>Tout d'abord, nous avons reçu une application web statique nommée Linkretz truffée de bug. Ainsi le but de ce tp était de comprendre la provenance du bug et d'effectuer sa correction. En résumé, les objectifs de ce tp était donc de savoir utiliser un fichier CSS, visualiser le code source d'une page HTML permmettant de mieux visualiser l'origine des bugs du code, savoir utiliser l'inspecteur de code, savoir modifier une règle dans une feuille de style CSS et enfin savoir modifier une page HTML.<br><br>
+
+                                        Pour finir, voici les évolutions demandées sur le site Linkretz :<br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp;- Affichage des caractéristiques des tour-opérateurs enregistrés dans la base de données lors du clic sur l'onglet 'TOUR-OPERATEURS';<br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp;- Lorsque l'utilisateur sélectionne l'onglet 'CONTACT' dans le menu, il doit obtenir le nom, le prénom et le numéro de téléphone des commerciaux de Linkretz;<br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp;- Actuellement le menu (contenu entre des balises nav) est présent dans chacun des scripts situés dans le répertoire page. Si on souhaite modifier le menu (modifier le nom d'une option, ajouter une option, supprimer une option, modifier un lien,etc.), il est nécessaire de modifier tous les scripts situés dans le répertoire page. Pour éviter ce travail fastidieux, nous allons utiliser les includes;<br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp;- Pour la partie accessible par les employés, il faudra afficher les caractéristiques de tous les employés dans l'onglet 'CONNEXION' puis en cliquant sur le lien 'Accès au menu des salariés';<br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp;- Pour la partie accessible par l'administrateur du site, il faudra modifier le code pour afficher les employés en vue de leur gestion (CRUD) et d'afficher les tour-opérateurs en vue de leur gestion (CRUD) dans l'onglet 'CONNEXION' puis en cliquant sur le lien 'Accès au menu de l'administrateur';<br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp;- Modification du site de Linkretz pour offrir à un internaute la possibilité de déposer une demande d’information grâce à un formulaire dans l'onglet 'NOUS CONTACTER';<br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp;- Ajouter une fonctionnalité permettant de créer un employé avec ses caractéristiques grâce à un formulaire dans la partie accessible par l'administrateur;<br>
+                                        &nbsp; &nbsp; &nbsp; &nbsp;- Mutualisation des composants graphiques d’un formulaire (ajout et modification).<br><br>
+
+                                        Voir le TP : &nbsp; &nbsp;<a href="../assets/pdf/tp-correction-web.pdf" class="btn btn-default" target="_blank">TP correction web Linkretz</a></p><br>
+
+                                        Application modifiée avec les évolutions demandés : &nbsp; &nbsp;<a href="https://github.com/DennelFabien/Linkretz" class="btn btn-default" target="_blank">Github</a></p>
+                                    </div> 
+                    </div>
+                </div>
                 <div class='caroussel_diapo'>
                     <input checked id="carou_un" name="rotation" type="radio">
                         <label for="carou_un"></label>
